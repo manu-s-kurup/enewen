@@ -1132,11 +1132,25 @@ a:hover {
 }
 
 
-.custom {
-  color: orange;
-  font-weight: 500;
+.social-icon {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  /* Center the icons horizontally */
 }
 
+.social-icon li {
+  margin: 0 15px;
+  /* Adjust margin between social icons */
+}
+
+.social-icon a {
+  font-size: 24px;
+  /* Adjust icon size */
+  color: #007bff;
+  /* Set icon color to primary color */
+}
 
 
 .card {
