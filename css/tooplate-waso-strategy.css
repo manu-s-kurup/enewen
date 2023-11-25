@@ -1130,3 +1130,60 @@ a:hover {
 .accordion-body {
   padding: 15px;
 }
+
+
+.custom {
+  color: orange;
+  font-weight: 500;
+}
+
+
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  border: 0;
+  border-bottom: 1px solid #007bff;
+  /* Border color set to primary color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 4rem 2rem;
+  /* Adjust padding for responsiveness */
+}
+
+.form-group {
+  margin-bottom: 15px;
+  /* Add margin between form groups */
+}
+
+.form-group input {
+  border-radius: 0;
+  /* Remove border-radius */
+  border: none;
+  /* Remove border */
+  border-bottom: 1px solid #ccc;
+  /* Add bottom border */
+  padding: 8px;
+  /* Adjust padding */
+  width: 100%;
+  /* Make input width 100% */
+}
+
+button {
+  background-color: #007bff;
+  /* Set button background color to primary color */
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  /* Make button width 100% */
+}
+
+button:hover {
+  background-color: #0056b3;
+  /* Darker shade on hover */
+}
